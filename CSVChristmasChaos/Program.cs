@@ -32,7 +32,7 @@ namespace CSVChristmasChaos
             createRecord(GetElfName(fileSix), GetNaughtyOrNice(fileSix), fileSix);
             sortList();
             writeToFile();
-            Console.WriteLine("File Generated successfully. Press and enter any button to exit");
+            Console.WriteLine("File Generated successfully. Press and enter any button to exit.");
             Console.ReadLine();
         }
 
